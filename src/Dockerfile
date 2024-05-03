@@ -14,7 +14,7 @@ RUN yum update -y \
     && yum group install -y "Development Tools"
 
 #
-# redis cli
+# gzip
 #
 
 RUN curl https://ftp.gnu.org/gnu/gzip/gzip-1.13.zip -o gzip-1.13.zip
